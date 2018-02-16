@@ -18,3 +18,7 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+li {
+display: block-inline;
+}
