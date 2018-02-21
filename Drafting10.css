@@ -1,6 +1,6 @@
 .body
 {
-    background-image:url('https://image.ibb.co/h1Bzfn/Hyperbolic_Studios_Banner2.jpg');
+    background-image:url('https://i.imgur.com/K4pHuXh.jpg');
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center;
@@ -50,4 +50,9 @@ width:100%;
 z-index: 2;
 
 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }

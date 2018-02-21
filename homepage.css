@@ -1,3 +1,7 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 body
 {
     background-image:url('https://image.ibb.co/h1Bzfn/Hyperbolic_Studios_Banner2.jpg');
