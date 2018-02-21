@@ -1,4 +1,4 @@
-body
+.body
 {
     background-image:url('https://image.ibb.co/h1Bzfn/Hyperbolic_Studios_Banner2.jpg');
     background-repeat:no-repeat;
@@ -8,17 +8,21 @@ body
 background-size: cover;
 z-index: 1;
 margin: 0 auto;
+height: 100%;
+width: 100%;
 }
 
 ul {
-  margin: 30px auto;
+  margin: 0px auto;
   padding: 0 20px;
   text-align: center;
 
+height: 60px;
+padding-top: 40px;
 }
 
 li {
-  color: black;
+
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -26,11 +30,24 @@ li {
   display: inline-block;
   width: 200px;
 
-
 }
 
 .menu {
     text-decoration: none;
     color: black;
     font-family: Helvetica;
+}
+
+.bar {
+     margin: 0px auto;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+
+height: 60px;
+width:100%;
+z-index: 2;
+
+
 }
