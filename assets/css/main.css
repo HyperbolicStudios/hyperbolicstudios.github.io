@@ -4310,11 +4310,11 @@
 			}
 
 		}
-.frontImages {
-border: 3px solid green;
+#frontImages {
+
 position: relative;
-left: 100px;
-display: block-inline;
+
+
 }
 
 
