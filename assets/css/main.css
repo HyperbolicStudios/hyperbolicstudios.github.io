@@ -1641,7 +1641,7 @@
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -4320,12 +4320,56 @@ position: relative;
 
 .divider {
 
-height: 200px;
+height: 400px;
 width: 100%;
 background-color: #f2f2f2;
+}
+
+.smalldivider {
+	width: 100%;
+	background-color: #f2f2f2;
+	height:200px;
+
+}
+
+.grid {
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+background-color: #f2f2f2;
+
+}
+
+.textimagediv {
+
+
+	padding-right:60px;
+	padding-left:10px;
+
+}
+
+.text {
+	border:none;
+
+}
+
+.lefttext {
+	padding-left:30px;
+}
+
+#leftimage {
+	padding-left:60px;
+	padding-right:10px;
+}
+
+.textimage {
+
+	width:100%;
 }
 /*
 div {
 
 	border:1px solid red;
 }
+
+*/
