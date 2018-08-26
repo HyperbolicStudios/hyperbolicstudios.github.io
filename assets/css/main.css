@@ -4373,3 +4373,47 @@ div {
 }
 
 */
+
+
+/*MENU STYLING */
+
+
+.menu-container {
+
+
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 50px;
+
+}
+
+.projects {
+  height: 500px;
+  display:grid;
+  grid-template-rows:450px 50px;
+  background-color: white;
+	border:10px solid white;
+}
+
+.projects h4 {
+margin-top: 10px;
+}
+.itemimage {
+
+  height:100%;
+	width: 100%;
+	background-image:url('../../images/slide05.jpg');
+	background-size:cover;
+}
+
+#menu-parklet {
+	background-image:url('../../images/menu1.png');
+	background-position: -160px;
+}
+
+#menu-Watercourse {
+	background-image: url('../../images/menu2.png');
+	background-position:-167px;
+}
