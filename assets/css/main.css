@@ -4404,8 +4404,9 @@ margin-top: 10px;
 
   height:100%;
 	width: 100%;
-	background-image:url('../../images/slide05.jpg');
-	background-size:cover;
+	background-image:url('../../images/soon.png');
+	background-size: cover;
+	background-position: center;
 }
 
 #menu-parklet {
@@ -4416,4 +4417,31 @@ margin-top: 10px;
 #menu-Watercourse {
 	background-image: url('../../images/menu2.png');
 	background-position:-167px;
+}
+
+#menu-keyboard {
+	background-image: url('../../images/menu3.jpg');
+	background-position: auto;
+}
+
+#menu-bikeWheel {
+
+	background-image: url('../../images/menu4.jpg');
+	background-position: -230px;
+}
+
+#menu-boat {
+	background-image: url('../../images/menu5.jpg');
+	background-position: -50px;
+
+}
+
+#menu-kitchen {
+	background-image: url('../../images/menu6.jpg');
+
+}
+
+#menu-glassware {
+	background-image: url('../../images/menu7.png');
+
 }

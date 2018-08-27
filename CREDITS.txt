@@ -1,4 +1,4 @@
-# Image Credits
+# Image Credits [For the original templates]
 
 All images courtesy of Unsplash (https://unsplash.com).
 
@@ -20,3 +20,7 @@ All images courtesy of Unsplash (https://unsplash.com).
 
 - Davide Cantelli
 	https://unsplash.com/photos/r0q06hjTgOc
+
+*All other images are my own (Mark Edwardson)
+
+Website template licensed under CC courtesy of the creator.
