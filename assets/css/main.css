@@ -4445,3 +4445,13 @@ margin-top: 10px;
 	background-image: url('../../images/Menu7.png');
 
 }
+
+/*CONTCT STYLING----------------------------------------------*/
+
+#contact-page {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 30px;
+
+}
