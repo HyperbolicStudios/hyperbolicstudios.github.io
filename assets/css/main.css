@@ -4454,7 +4454,6 @@ margin-top: 10px;
 #projectHeader {
 	font-size: 120px;
 	color:white;
-
 	width: auto;
 	text-align:left;
 	width:auto;
@@ -4462,13 +4461,10 @@ margin-top: 10px;
 	position:relative;
 	top: 15%;
 	right:10%;
-
-
-
 }
 
-#bar {
-	border:1px solid red;
-	height:30px;
-	
+#projectbanner {
+	height:100vh;
+	width:100%;
+	background-image:url('images/menu1.png');">
 }
