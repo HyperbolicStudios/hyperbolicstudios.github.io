@@ -3719,6 +3719,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10001;
+
 	}
 
 		#header > .logo {
@@ -4366,14 +4367,6 @@ background-color: #f2f2f2;
 
 	width:100%;
 }
-/*
-div {
-
-	border:1px solid red;
-}
-
-*/
-
 
 /*MENU STYLING */
 
@@ -4454,4 +4447,28 @@ margin-top: 10px;
 	grid-template-columns: 1fr 1fr;
 	margin: 30px;
 
+}
+
+/*PROJECT PAGE STYLING ----------------------------------------*/
+
+#projectHeader {
+	font-size: 120px;
+	color:white;
+
+	width: auto;
+	text-align:left;
+	width:auto;
+	float: right;
+	position:relative;
+	top: 15%;
+	right:10%;
+
+
+
+}
+
+#bar {
+	border:1px solid red;
+	height:30px;
+	
 }
