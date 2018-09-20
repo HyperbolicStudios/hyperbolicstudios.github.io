@@ -4311,14 +4311,15 @@
 			}
 
 		}
+
+
 #frontImages {
-
 position: relative;
-
-
 }
 
-
+.text-center {
+	text-align: center;
+}
 .divider {
 
 height: 400px;
@@ -4439,7 +4440,7 @@ margin-top: 10px;
 
 }
 
-/*CONTCT STYLING----------------------------------------------*/
+/*CONTACT STYLING----------------------------------------------*/
 
 #contact-page {
 
@@ -4463,4 +4464,33 @@ float:right;
 	background-color:red;
 	background-image: url('../../images/Menu1.png');
 
+}
+.projectimagesA {
+	height:80vh;
+	background-size: cover;
+	background-position: 60%;
+	width:100%;
+
+}
+
+.projectimages {
+	margin-left: 7%;
+	margin-right: 7%;
+	height: 110vh;
+}
+
+#parkletimagesA {
+	background-image:url('../../images/parklet1.png');
+}
+
+#parkletimagesB {
+	background-image:url("../../images/parklet2.png");
+}
+
+#parkletimagesC {
+	background-image:url("../../images/parklet3.png");
+}
+
+#parkletimagesD {
+	background-image:url("../../images/parklet4.png");
 }
