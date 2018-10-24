@@ -4463,6 +4463,7 @@ float:right;
 	width:100%;
 	background-color:red;
 	background-image: url('../../images/Menu1.png');
+	background-size: cover;
 
 }
 .projectimagesA {
