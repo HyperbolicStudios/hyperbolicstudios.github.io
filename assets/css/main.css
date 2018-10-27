@@ -4317,9 +4317,7 @@
 position: relative;
 }
 
-.text-center {
-	text-align: center;
-}
+
 .divider {
 
 height: 400px;
@@ -4331,21 +4329,29 @@ background-color: #f2f2f2;
 	width: 100%;
 	background-color: #f2f2f2;
 	height:200px;
-
 }
 
+#height-30-percent {
+	height:30%;
+}
+
+#margin-30px {
+	margin:30px;
+}
 .grid {
 display:grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 background-color: #f2f2f2;
+grid-gap:30px;
+
 
 }
 
 .textimagediv {
 
 
-	padding-right:60px;
+	padding-right:30px;
 	padding-left:10px;
 
 }
@@ -4359,8 +4365,12 @@ background-color: #f2f2f2;
 	padding-left:30px;
 }
 
+#righttext {
+	padding-right:30px;
+}
+
 #leftimage {
-	padding-left:60px;
+	padding-left:30px;
 	padding-right:10px;
 }
 
@@ -4450,7 +4460,13 @@ margin-top: 10px;
 
 }
 
-/*PROJECT PAGE STYLING ----------------------------------------*/
+/*PROJECT PAGES STYLING ----------------------------------------*/
+
+#trailer {
+	width:560px;
+	margin:auto;
+
+}
 
 #projectHeader {
 width:50%;
@@ -4458,13 +4474,19 @@ position:relative;
 float:right;
 }
 
-#projectbanner {
-	height:100vh;
-	width:100%;
-	background-color:red;
+#projectbannerparklet {
+
 	background-image: url('../../images/Menu1.png');
 
+
 }
+
+#projectbannerwatercourse {
+	background-image: url('../../images/Menu2.png');
+	background-size:cover;
+}
+
+
 .projectimagesA {
 	height:80vh;
 	background-size: cover;
@@ -4481,6 +4503,22 @@ float:right;
 
 #parkletimagesA {
 	background-image:url('../../images/parklet1.png');
+}
+
+#parkletimagesB {
+	background-image:url("../../images/parklet2.png");
+}
+
+#parkletimagesC {
+	background-image:url("../../images/parklet3.png");
+}
+
+#parkletimagesD {
+	background-image:url("../../images/parklet4.png");
+}
+
+#watercourseimagesA {
+	background-image:url('../../images/watercourse1.png');
 }
 
 #parkletimagesB {
