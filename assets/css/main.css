@@ -4477,6 +4477,7 @@ float:right;
 #projectbannerparklet {
 
 	background-image: url('../../images/Menu1.png');
+	background-size: cover;
 
 
 }
@@ -4499,6 +4500,7 @@ float:right;
 	margin-left: 7%;
 	margin-right: 7%;
 	height: 110vh;
+	background-size:cover;
 }
 
 #parkletimagesA {
