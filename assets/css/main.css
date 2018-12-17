@@ -4344,8 +4344,12 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 background-color: #f2f2f2;
 grid-gap:30px;
+}
 
-
+@media only screen and (max-width: 768px) {
+	.grid {
+		grid-template-columns: 1fr;
+}
 }
 
 .textimagediv {
@@ -4523,7 +4527,7 @@ float:right;
 	background-image:url('../../images/watercourse1.png');
 }
 
-#parkletimagesB {
+#watercourseimagesB {
 	background-image:url("../../images/parklet2.png");
 }
 
