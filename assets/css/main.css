@@ -4350,29 +4350,6 @@ background-color: #f2f2f2;
 
 
 
-/*Quickfact boxes */
-
-.trigrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50vh;
-	background-color: #f2f2f2;
-	grid-gap:30px;
-}
-
-.factbox {
-	height:100%;
-	width:100%;
-	border: 1px solid black;
-
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-}
-
-.factbox > img {
-	width:90px;
-}
 
 .grid {
 display:grid;
@@ -4389,11 +4366,7 @@ grid-gap:30px;
 
 }
 
-@media only screen and (max-width: 768px) {
-	.grid {
-		grid-template-columns: 1fr;
-}
-}
+
 
 strong {
 	color: black;
@@ -4419,7 +4392,6 @@ display:block;
 
 
 /*MENU STYLING */
-
 
 .menu-container {
 
@@ -4489,6 +4461,12 @@ margin-top: 10px;
 
 }
 
+
+@media only screen and (max-width: 768px) {
+	.grid, .menu-container {
+		grid-template-columns: 1fr;
+}
+}
 /*CONTACT STYLING----------------------------------------------*/
 
 #contact-page {
