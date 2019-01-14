@@ -4481,7 +4481,17 @@ margin-top: 10px;
 
 #trailer {
 	width:560px;
+	height: 314px;
+
 	margin:auto;
+}
+
+@media screen and (max-width: 736px) {
+
+	#trailer {
+		width: 300px;
+		height: 168px;
+	}
 
 }
 
@@ -4506,35 +4516,20 @@ float:right;
 
 
 .projectimagesA {
-	height:80vh;
-	background-size: cover;
-	background-position: 60%;
-	width:100%;
+
+	width:90%;
 
 }
 
 .projectimages {
 	margin-left: 7%;
 	margin-right: 7%;
-	height: 110vh;
-	background-size:cover;
+	width: 90%;
+	height:auto;
+
 }
 
-#parkletimagesA {
-	background-image:url('../../images/parklet1.png');
-}
 
-#parkletimagesB {
-	background-image:url("../../images/parklet2.png");
-}
-
-#parkletimagesC {
-	background-image:url("../../images/parklet3.png");
-}
-
-#parkletimagesD {
-	background-image:url("../../images/parklet4.png");
-}
 
 #watercourseimagesA {
 	background-image:url('../../images/watercourse1.png');
@@ -4546,8 +4541,4 @@ float:right;
 
 #parkletimagesC {
 	background-image:url("../../images/parklet3.png");
-}
-
-#parkletimagesD {
-	background-image:url("../../images/parklet4.png");
 }
