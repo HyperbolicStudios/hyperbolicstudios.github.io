@@ -4498,8 +4498,18 @@ margin-top: 10px;
 #projectHeader {
 width:50%;
 position:relative;
-float:right;
+
+left: 20%;
+
+
 }
+@media only screen and (max-width: 768px) {
+#projectHeader {
+	left: 4%;
+
+}
+}
+
 
 #projectbannerparklet {
 
@@ -4523,8 +4533,6 @@ float:right;
 	height:auto;
 
 }
-
-
 
 #watercourseimagesA {
 	background-image:url('../../images/watercourse1.png');
