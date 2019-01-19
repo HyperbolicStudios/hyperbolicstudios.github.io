@@ -4430,12 +4430,12 @@ margin-top: 10px;
 }
 
 #menu-Watercourse {
-	background-image: url('../../images/Menu2.png');
+	background-image: url('../../images/menu2.png');
 	background-position:-167px;
 }
 
 #menu-keyboard {
-	background-image: url('../../images/Menu3.jpg');
+	background-image: url('../../images/menu3.jpg');
 	background-position: auto;
 }
 
@@ -4452,12 +4452,12 @@ margin-top: 10px;
 }
 
 #menu-kitchen {
-	background-image: url('../../images/Menu6.jpg');
+	background-image: url('../../images/menu6.jpg');
 
 }
 
 #menu-glassware {
-	background-image: url('../../images/Menu7.png');
+	background-image: url('../../images/menu7.png');
 
 }
 
@@ -4510,12 +4510,10 @@ left: 20%;
 }
 }
 
-
 #projectbannerparklet {
 
 	background-image: url('../../images/menu1.png');
 	background-size: cover;
-
 
 }
 
@@ -4523,8 +4521,6 @@ left: 20%;
 	background-image: url('../../images/menu2.png');
 	background-size:cover;
 }
-
-
 
 .projectimages {
 	margin-left: 4.5%;
