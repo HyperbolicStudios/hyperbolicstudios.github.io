@@ -4401,6 +4401,11 @@ p {
 	background-image: url('../../images/menu3.jpg');
 	background-size: cover;
 }
+
+#projectbannerbikewheel {
+  background-image: url('../../images/slide02.jpg');
+	background-size: cover;
+}
 .projectimages {
   margin-left: 4.5%;
   margin-right: 4.5%;
