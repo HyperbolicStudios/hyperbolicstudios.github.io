@@ -6,21 +6,17 @@ import time
 from datetime import datetime
 from pytz import timezone
 import pytz
-
-f = open("emailCredentials.txt", "r")
-x = str((f.readlines(1)))
-email = (x[2:(len(x)-4)])
-x = str((f.readlines(2)))
-password = (x[2:(len(x)-4)])
-x = str((f.readlines(3)))
-admin = (x[2:(len(x)-4)])
-f.close()
+import os
 
 
+email = "xynicism0@gmail.com"
+password = "davgazrgtqjjxljk"
+admin = "m.Edwardsonx@gmail.com"
 # App config.
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
+
 app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
 
 class ReusableForm(Form):
@@ -66,7 +62,7 @@ def hello():
         else:
             flash('Error: All the form fields are required. ')
 
-    return render_template('index.html', form=form)
+    return render_template('contact.html', form=form)
 
 if __name__ == "__main__":
     app.run()

@@ -3046,7 +3046,7 @@ table.alt tbody tr td {
 .wrapper.style3 {
   background-color: #000;
   color: #bfbfbf;
-  background-image: url(../../images/bg.jpg);
+  background-image: url("https://i.ibb.co/J7mkG7g/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -4262,10 +4262,7 @@ body.is-mobile .banner>article {
   grid-gap: 30px;
 }
 
-p {
-  font-size: 18px;
-  color: black;
-}
+
 
 strong {
   color: black;
@@ -4273,6 +4270,7 @@ strong {
 
 p {
   font-size: 18px;
+  color: black;
 }
 
 .description-text {
@@ -4355,12 +4353,18 @@ p {
 }
 
 /*CONTACT STYLING----------------------------------------------*/
-#contact-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 30px;
+.form-container {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 50px;
+
+
 }
 
+#test {
+  color: red;
+}
 /*PROJECT PAGES STYLING ----------------------------------------*/
 #trailer {
   width: 560px;
