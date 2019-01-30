@@ -1,4 +1,4 @@
-from flask import Flask, render_template, flash, request
+from flask import Flask, render_template, flash, request, redirect
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 import smtplib
 import traceback
@@ -25,8 +25,12 @@ class ReusableForm(Form):
     message = TextField('message', validators=[validators.required()])
 
 
-@app.route("/econtact", methods=['GET', 'POST'])
+@app.route('/')
 def hello():
+    return redirect("/contact", code=302)
+
+@app.route("/contact", methods=['GET', 'POST'])
+def hello2():
     form = ReusableForm(request.form)
 
 
