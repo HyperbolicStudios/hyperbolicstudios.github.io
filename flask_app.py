@@ -25,7 +25,7 @@ class ReusableForm(Form):
     message = TextField('message', validators=[validators.required()])
 
 
-@app.route("/contact", methods=['GET', 'POST'])
+@app.route("/econtact", methods=['GET', 'POST'])
 def hello():
     form = ReusableForm(request.form)
 
