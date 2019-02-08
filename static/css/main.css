@@ -4318,6 +4318,11 @@ p {
   background-position: -160px;
 }
 
+#menu-parklet {
+  background-image: url('../../images/slide06.jpg');
+  background-position: -160px;
+}
+
 #menu-Watercourse {
   background-image: url('../../images/menu2.png');
   background-position: -167px;
