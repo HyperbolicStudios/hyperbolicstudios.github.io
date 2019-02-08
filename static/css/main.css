@@ -4380,9 +4380,10 @@ p {
 }
 
 #projectHeader {
-  width: 50%;
+  width: 75%;
+
   position: relative;
-  left: 20%;
+  left: 25%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -4408,6 +4409,11 @@ p {
 
 #projectbannerbikewheel {
   background-image: url('../../images/slide02.jpg');
+	background-size: cover;
+}
+
+#projectbannercommons {
+  background-image: url('../../images/slide06.jpg');
 	background-size: cover;
 }
 .projectimages {
