@@ -4421,6 +4421,12 @@ p {
   background-image: url('../../images/slide06.jpg');
 	background-size: cover;
 }
+
+#projectbannerhouse {
+  background-image: url('../../images/house1.jpg');
+	background-size: cover;
+
+}
 .projectimages {
   margin-left: 4.5%;
   margin-right: 4.5%;
