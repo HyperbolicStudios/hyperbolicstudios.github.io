@@ -4427,6 +4427,12 @@ p {
 	background-size: cover;
 
 }
+
+#projectbannerclock {
+  background-image: url('../../images/clock1.png');
+	background-size: cover;
+
+}
 .projectimages {
   margin-left: 4.5%;
   margin-right: 4.5%;
