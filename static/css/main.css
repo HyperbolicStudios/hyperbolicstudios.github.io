@@ -4316,8 +4316,15 @@ p {
 #menu-house {
 background-image: url('../../images/house1.JPG');
 background-position: auto;
-	
-	
+
+
+}
+
+#menu-clock {
+background-image: url('../../images/clock1.png');
+background-position: auto;
+
+
 }
 #menu-parklet {
   background-image: url('../../images/menu1.png');
@@ -4421,6 +4428,8 @@ background-position: auto;
 #projectbannerbikewheel {
   background-image: url('../../images/slide02.jpg');
 	background-size: cover;
+
+
 }
 
 #projectbannercommons {
