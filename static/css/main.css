@@ -4313,6 +4313,12 @@ p {
   background-position: center;
 }
 
+#menu-house {
+background-image: url('../../images/house1.JPG');
+background-position: auto;
+	
+	
+}
 #menu-parklet {
   background-image: url('../../images/menu1.png');
   background-position: -160px;
@@ -4423,7 +4429,7 @@ p {
 }
 
 #projectbannerhouse {
-  background-image: url('../../images/house1.jpg');
+  background-image: url('../../images/house1.JPG');
 	background-size: cover;
 
 }
