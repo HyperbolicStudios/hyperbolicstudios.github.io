@@ -4313,6 +4313,12 @@ p {
   background-position: center;
 }
 
+#menu-grant {
+  background-image: url('../../images/grant1.png');
+  background-position: auto;
+}
+
+
 #menu-house {
 background-image: url('../../images/house1.JPG');
 background-position: auto;
@@ -4408,6 +4414,11 @@ background-position: auto;
   #projectHeader {
     left: 4%;
   }
+}
+
+#projectbannergrant {
+  background-image: url('../../images/grant1.png');
+  background-size: cover;
 }
 
 #projectbannerparklet {
