@@ -4262,7 +4262,13 @@ body.is-mobile .banner>article {
   grid-gap: 30px;
 }
 
+.grid-homeoptions {
+  display:grid;
+  width:50%;
+  margin-left: 25%;
 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
 strong {
   color: black;
@@ -4374,7 +4380,18 @@ background-position: auto;
   .grid, .menu-container {
     grid-template-columns: 1fr;
   }
+  .grid-homeoptions {
+    grid-template-columns: 1fr;
+    width: 35%;
+    margin-left:30%;
+    margin-right: 30%;
+
+  }
 }
+
+
+
+
 
 /*CONTACT STYLING----------------------------------------------*/
 .form-container {
@@ -4402,6 +4419,10 @@ background-position: auto;
     height: 168px;
   }
 }
+
+
+
+
 
 #projectHeader {
   width: 75%;
