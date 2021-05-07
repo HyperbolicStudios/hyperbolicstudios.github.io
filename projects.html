@@ -1,177 +1,147 @@
 <!DOCTYPE HTML>
-<!--
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<html lang="en">
 
 <head>
-	<title>My Work</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="static/css/main.css" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
-	<link rel="manifest" href="static/favicon/site.webmanifest">
+  <title>Mark Edwardson</title>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="static/favicon/site.webmanifest">
+
 
 </head>
 
-<body class="subpage">
-
-	<!-- Header -->
-	<header id="header">
-		<div class="logo"><a href="index.html">Mark Edwardson</a></div>
-		<a href="#menu">Menu</a>
-	</header>
-
-	<!-- Nav -->
-	<nav id="menu">
-		<ul class="links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="generic.html">Resume/About</a></li>
-
-		</ul>
-	</nav>
-
-	<!-- One -->
-	<section class="wrapper style3">
-		<div class="inner">
-			<header class="align-center">
-
-				<h2>Projects</h2>
-			</header>
-		</div>
-	</section>
-
-	<!--Two -->
-	<section class="wrapper style2">
-
-		<section class="menu-container">
+<body>
 
 
-			<div class="projects">
-				<a href="projects/grantStreet.html">
-					<div class="itemimage" id="menu-grant"></div>
-				</a>
 
-				<center>
-					<h4>1348 Grant Street</h4>
-				</center>
-			</div>
+  <header id="topHeader" onclick="openNav()">
+    <div></div>
+    <h3>Mark Edwardson | Design Portfolio</h3>
 
-			<div class="projects">
-				<a href="projects/clock.html">
-					<div class="itemimage" id="menu-clock"></div>
-				</a>
+    <h3 class="align-right openButton">Menu &nbsp;&#9776;</h3>
+    <div></div>
+  </header>
 
-				<center>
-					<h4>Clock</h4>
-				</center>
-			</div>
+  <header id="mainHeader" onclick="openNav()">
+    <div></div>
+    <h3>Mark Edwardson | Design Portfolio</h3>
 
-			<div class="projects">
-				<a href="projects/house.html">
-					<div class="itemimage" id="menu-house"></div>
-				</a>
-
-				<center>
-					<h4>Tiny House</h4>
-				</center>
-			</div>
+    <h3 class="align-right openButton">Menu &nbsp;&#9776;</h3>
+    <div></div>
+  </header>
 
 
-			<div class="projects">
-				<a href="projects/commons.html">
-					<div class="itemimage" id="menu-commons"></div>
-				</a>
+  <nav id="menu">
+    <div onclick="closeNav()">
+      <h5 class="menu-text close" id="closeButton">&times;</h5>
+    </div>
+    <a href="/">
+      <h5 class="menu-text">Home</h5>
+    </a>
+    <a href="projects.html">
+      <h5 class="menu-text">Projects</h5>
+    </a>
+    <a href="/about.html">
+      <h5 class="menu-text">About & Resume</h5>
+    </a>
+    <div></div>
 
-				<center>
-					<h4>Library Commons</h4>
-				</center>
-			</div>
-
-			<div class="projects">
-				<a href="projects/parklet.html">
-					<div class="itemimage" id="menu-parklet"></div>
-				</a>
-
-				<center>
-					<h4>A Parklet</h4>
-				</center>
-			</div>
-
-			<div class="projects">
-				<a href="projects/watercourse.html">
-					<div class="itemimage" id="menu-Watercourse"></div>
-				</a>
-
-				<center>
-					<h4>Watercourse</h4>
-				</center>
-			</div>
-
-			<div class="projects">
-				<a href="projects/keyboard.html">
-					<div class="itemimage" id="menu-keyboard"></div>
-				</a>
-
-				<center>
-					<h4>Project Typed</h4>
-				</center>
-			</div>
-
-			<div class="projects">
-				<a href="projects/bikewheel.html">
-					<div class="itemimage" id="menu-bikeWheel"></div>
-				</a>
-
-				<center>
-					<h4>Bike Wheel</h4>
-				</center>
-			</div>
-
-			<div class="projects">
-				<a href="projects/boat.html">
-					<div class="itemimage" id="menu-boat"></div>
-				</a>
-
-				<center>
-					<h4>Boat: Coming Soon</h4>
-				</center>
-			</div>
+  </nav>
 
 
-		</section>
+  <section class="style2">
+    <h3>Projects</h3>
+  </section>
 
-	</section>
+  <section class="style3">
+    <a href="projects/grantstreet.html">
+      <div>
+        <div><img alt="Grant Street" src="static/images/menu1.webp"></div>
+        <h6>Grant Street</h6>
+      </div>
+    </a>
+
+    <a href="projects/map.html">
+      <div>
+        <div><img alt="Topographic Map" src="static/images/menu2.jpg"></div>
+        <h6>Topography of Saanich</h6>
+      </div>
+    </a>
+
+    <a href="projects/house.html">
+      <div>
+        <div><img alt="House" src="static/images/menu3.webp"></div>
+        <h6>Tiny House</h6>
+      </div>
+    </a>
+
+    <a href="projects/commons.html">
+      <div>
+        <div><img alt="Learning Commons" src="static/images/menu4.webp"></div>
+        <h6>Learning Commons</h6>
+      </div>
+    </a>
+
+    <a href="projects/clock.html">
+      <div>
+        <div><img alt="Clock" src="static/images/menu5.webp"></div>
+        <h6>Clock</h6>
+      </div>
+    </a>
+
+    <a href="projects/parklet.html">
+      <div>
+        <div><img alt="Parklet" id="move" src="static/images/menu6.webp"></div>
+        <h6>Parklet</h6>
+      </div>
+    </a>
+
+    <a href="projects/watercourse.html">
+      <div>
+        <div><img alt="Watercourse" src="static/images/menu7.webp"></div>
+        <h6>Watercourse</h6>
+      </div>
+    </a>
+
+    <a href="projects/keyboard.html">
+      <div>
+        <div><img alt="Keyboard" src="static/images/menu8.webp"></div>
+        <h6>Keyboard</h6>
+      </div>
+    </a>
+
+    <a href="projects/bikewheel.html">
+      <div>
+        <div><img alt="Bikewheel" src="static/images/menu9.webp"></div>
+        <h6>Bike Wheel</h6>
+      </div>
+    </a>
+
+  </section>
 
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="container">
-			<ul class="icons">
-				<li><a href="generic.html" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="generic.html" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href='generic.html' class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="mailto:m.EdwardsonX@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-			</ul>
-		</div>
-		<div class="copyright">
-			&copy; 2019 Mark Edwardson. All rights reserved.
-		</div>
-	</footer>
+  <!-- Footer -->
+  <footer id="footer">
 
-	<!-- Scripts -->
-	<script src="static/js/jquery.min.js"></script>
-	<script src="static/js/jquery.scrollex.min.js"></script>
-	<script src="static/js/skel.min.js"></script>
-	<script src="static/js/util.js"></script>
-	<script src="static/js/main.js"></script>
+    <div class="container align-center"><br>
+      <a class="para1 icon" href="mailto:m.edwardsonx@gmail.com"><span class="icon fa-envelope-o"></span></a>
+      <p class="para1"><br><br>&copy; 2020 Mark Edwardson. All rights reserved.</p>
+    </div>
 
+
+  </footer>
+<script src="static/js/script.js"></script>
 </body>
 
 </html>
