@@ -321,9 +321,12 @@ footer {
     background-image: url("../images/keyboard1.webp");
 }
 
-
 #map {
     background-image: url("../images/map1.jpg");
+}
+
+#attic {
+  background-image: url("../images/attic1.webp");
 }
 @media only screen and (max-width: 768px) {
   .style2{
