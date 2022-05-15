@@ -288,6 +288,14 @@ footer {
   padding-top: 25%;
   color: white;
 }
+#ecs {
+    background-image: url("../images/ecs1.webp");
+}
+
+#lrt {
+    background-image: url("../images/lrt1.png");
+}
+
 #grantstreet {
     background-image: url("../images/grant1.webp");
 }
@@ -370,9 +378,6 @@ footer {
   text-align: center;
   padding-top: 8px;
 }
-
-
-
 
 .full-height-image {
   width: 90%;
