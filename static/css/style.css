@@ -36,7 +36,9 @@ h6 {
 }
 
 p {
+  margin-top: 8px;
   font-size: 17px;
+
 }
 
 a {
@@ -73,6 +75,7 @@ a>span {
 
 .icon {
   font-size: 30px;
+  color: white;
 }
 
 .icon:hover {
@@ -191,6 +194,7 @@ margin: auto;
 
 footer {
   height: 30vh;
+  padding: 30px;
   background-color: black;
 }
 
