@@ -340,6 +340,11 @@ footer {
 #attic {
   background-image: url("../images/attic1.webp");
 }
+
+#JSB {
+  background-image: url("../images/JSB1.jpg");
+}
+
 @media only screen and (max-width: 768px) {
   .style2{
     height: 35vh;
