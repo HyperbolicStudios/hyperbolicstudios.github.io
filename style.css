@@ -79,6 +79,7 @@ img.pfp {
 @media (max-width: 600px) {
   img.pfp {
     width: 90%;
+    height: auto;
     margin: 5%;
   }
 }
