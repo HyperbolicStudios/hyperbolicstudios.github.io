@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@font-face {
+  font-family: Minecraftia;
+  src: url(assets/minecraftia/Minecraftia-Regular.ttf);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  font-weight: 300;
+  border: 0px solid red;
+  color: white;
+}
+
+body {
+  background-color: #1E1E1E;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a.special_link {
+  color: turquoise;
+  text-decoration: underline;
+}
+
+em {
+  color: turquoise;
+  font-style: normal;
+}
+
+h1, h1>em {
+  font-size: 40px;
+  font-family: minecraftia;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 15px;
+  padding: 3px 0px 3px 0px;
+}
+
+header {
+  margin-left: 12.5%;
+  padding: 20px 0px 20px 0px;
+}
+
+footer {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img.pfp {
+  height: 60vh;
+  margin: 5% 5% 0% 10%;
+}
+
+@media (max-width: 600px) {
+  img.pfp {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+  }
+}
+
+.container1 > div > p {
+  font-size: 20px;
+  padding: 6px 0px 6px 0px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 75%;
+  margin: 2% 12.5% 0px 12.5%;
+}
+
+@media (max-width: 600px) {
+  .container1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+.container2 {
+  display: grid;
+  margin: 5% 0px 5% 0px;
+  padding: 0px 20% 0px 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container2>a {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container3 {
+  width: 90%;
+  margin: 5vh 5% 0px 5%;
+}
+
+.container-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1% 0px 5vh 0px;
+  min-height: 30vh;
+}
+
+@media (max-width: 600px) {
+  .container-project {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+
+.project-description {
+  background-color: #2A2A2A;
+  padding: 5%;
+}
+
+.project-image {
+  width: 90%;
+  margin: 5%;
+}
+
+.container-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 1% 0px 1% 0px;
+}
+
+.container-tags > p {
+  height: 18px;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 2px 4px 2px 4px;
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tag.green {
+  background-color: #006400;
+}
+
+.tag.purple {
+  background-color: #FF00FF;
+}
+
+.tag.lime {
+  background-color: #32CD32;
+}
+
+.tag.orange {
+  background-color: #FFA500;
+}
+
+.tag.blue {
+  background-color: #426aba;
+}
+
+.tag.yellow {
+  background-color: #eecc0a;
+}
+
+.tag.pink {
+  background-color: #ff00d4;
+}
+
+.tag.red {
+  background-color: #FF0000;
+}
