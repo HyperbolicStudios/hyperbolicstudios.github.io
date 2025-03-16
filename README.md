@@ -1,1 +1,1 @@
-My personal website, written by myself in HTML and CSS. https://markedwardson.me/
+My personal website, written by myself in HTML and CSS. https://markedwardson.com/
