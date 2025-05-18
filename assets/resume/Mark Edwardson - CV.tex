@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author : Mark Edwardson
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Mark Edwardson} \\ \vspace{1pt}
+    \small 778-967-5043 $|$ \href{mailto:m.edwardsonx@gmail.com}{\underline{m.edwardsonx@gmail.com}} $|$ 
+    \href{https://markedwardson.com}{\underline{Portfolio}} $|$
+    \href{https://github.com/HyperbolicStudios}{\underline{Github}} $|$ 
+\href{https://www.linkedin.com/in/mark-edwardson-9906ab169/}{\underline{LinkedIn}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Victoria}{Victoria, BC}
+      {Bachelor of Engineering (Civil)}{Sept. 2020 -- Aug. 2025 (Expected)}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Transportation Engineering Co-op}{May 2023 -- August 2024}
+      {Urban Systems Ltd.}{Vancouver, BC}
+      \resumeItemListStart
+        \resumeItem{Acted as CAD designer on several concept and detailed design of active transportation projects using Civil 3D, contributing to corridor design, 2D linework, drawing production, and cost estimates}
+        \resumeItem{Developed technical figures for the "Floating Bus Stop" \href{https://bit.ly/3NpImnq}{\underline{Design Guide}} published by MoTI and Translink. Gained an understanding of accessibility challenges in cycling infrastructure, and available tools and guidance to resolve them}
+        \resumeItem{Developed Python scripts to automate analysis of ICBC crash data based on text descriptions of the crash. Scripts were key to delivering the project within budget}
+        \resumeItem{Summarized public feedback on proposed transportation projects, allowing council and staff to better understand trade-offs and community priorities}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Estimating Co-op}{Sept. 2022 -- Dec. 2022}
+      {PCL Construction Ltd.}{Calgary, AB}
+      \resumeItemListStart
+        \resumeItem{Led the creation of estimates and tender bid submissions with values of \$600,000 to \$1.2M}
+        \resumeItem{Coordinated with my supervisor, operations team, and sub-contractors to set milestones, resolve issues, and solicit prospective sub-contractors for quotes}
+        \resumeItem{Worked closely with other estimators during closing day to evaluate incoming sub-contractor quotes to ensure PCL's tender submission contained a complete scope while remaining competitive}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Transit Planning Co-op}{Jan 2022 -- Apr 2022}
+      {BC Transit}{Victoria, BC}
+      \resumeItemListStart
+        \resumeItem{Worked with a team to program a ridership forecasting model in Python that analyzed changes in COVID cases, economic conditions, and service levels during the pandemic to forecast future transit ridership in Victoria}
+        \resumeItem{Used Excel macros to develop tools that analyzed bus route performance and suggested candidates for service investment/reduction.}
+        \resumeItem{Wrote project reports, service change notices, and responses to development referrals}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://markedwardson.me/Victoria-Bus-Speed-and-Reliablity-Analysis/}{\underline{\textbf{Victoria Bus Speed Analysis}}} $|$ \emph{GTFS Data, GIS,  Python}}{Aug 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Leveraged BC Transit's live GTFS feed to develop a months-long database of bus locations and speeds}
+            \resumeItem{Developed a \href{https://markedwardson.me/Victoria-Bus-Speed-and-Reliablity-Analysis/}{\underline{website}} to visualize bus performance over time and by route}
+            \resumeItem{Gained a better understanding of opportunities to improve transit infrastructure in the CRD}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\href{https://markedwardson.me/transit-access-map/victoria.html}{\underline{\textbf{Transportation Access Maps}}} $|$ \emph{Google Maps API, Python, Census Data}}{Aug 2022 -- Aug 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a \href{https://markedwardson.me/transit-access-map/victoria.html}{\underline{website}} to compare travel times by mode through the CRD and Metro Vancouver}
+            \resumeItem{Gained experience experience with Google APIs, Python, and data visualization}
+            \resumeItem{Developed a better understanding of spatial inequities in regional transportation systems}
+            
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{My Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{CAD}{: Civil 3D, Revit, AutoCAD, Fusion, Vectorworks} \\
+     \textbf{Analysis Tools}{: Python, QGIS, MATLAB, PowerBI, Excel, Github} \\
+     \textbf{Data Sources}{: ICBC crash collison data, Canadian Census, Google Maps API, Strava Metro Data} \\
+    \textbf{Other Interests}{: 3D printing, biking, reading, puzzles}
+    }}
+    
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
