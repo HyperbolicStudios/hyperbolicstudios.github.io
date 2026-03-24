@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #1E1E1E;
+  background-color: #001726;
 }
 
 a {
@@ -137,7 +137,7 @@ img.pfp {
 }
 
 .project-description {
-  background-color: #2A2A2A;
+  background-color: #0b0b1c;
   padding: 5%;
 }
 
@@ -196,4 +196,13 @@ img.pfp {
 
 .tag.red {
   background-color: #FF0000;
+}
+
+.tag.cyan {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.tag.azure {
+  background-color: #007FFF;
 }
